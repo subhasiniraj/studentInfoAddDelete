@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Nov, 2019, 4:11:01 PM
+    Author     : subhasiniraj
+*/
+
+      #studentdata{
+            padding: 20px 15px 15px 15px;
+            margin: 0 auto;
+            width: 100%;
+         }
+        
+         span, option, input {
+            margin: 0;
+            border: 1px solid #80808054;
+            padding: 10px;
+            border-radius: 5px;
+         }
+         .stdBox{
+            display: table;
+            width:100%;
+            margin-bottom: 0px !important;
+         }
+         .Title,title{
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+         }
+         .Heading{
+            display: table-row;
+            font-weight: bold;
+            text-align: center;
+         }
+         .stdDetails{
+            display: table-row;
+         }
+         .stdInfo{
+            display: table-cell;
+            border: 1px solid rgba(10,10,10,.1);
+            border-width: thin;
+            padding: 10px 20px;
+            font-size: 14px;
+            width:30%;
+         }
+         .box{
+            background-color: #fff;
+            border-radius: 3px;
+            box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+            color: #4a4a4a;
+            display: block;
+            padding: 30px;
+            width: 90%;
+            margin: 20px auto;
+         }
+         h1{
+             color:cornflowerblue !important;
+             text-transform: uppercase;
+         }
+         /*media queries for mobile version*/
+         @media screen and (max-width:768px){
+             table tr td{
+                 border:none !important;
+             }
+             table tr th{
+                 display:none;
+                 
+             
+             }
+              table tr td:nth-child(n){
+                 float:left;
+                 width: 100%;
+             }
+         }
